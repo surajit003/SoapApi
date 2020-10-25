@@ -6,7 +6,6 @@ from .utils import (
 )
 import requests
 from bs4 import BeautifulSoup
-import lxml
 
 # Create your views here.
 def send_request_for_number_conversion(request, number):
